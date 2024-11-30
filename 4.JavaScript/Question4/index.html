@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 4</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <div class="container1">
+    <h6 id="heading-container">SESSION</h6>
+    <h1 id="timer">14:55</h1>
+  </div>
+
+  <div class="container2" style="background-color: #222222;">
+    <h1 style="padding: 20px; font-size: 15px; font-family: 'Fira Sans', sans-serif; color: grey;">SESSION LENGTH</h1>
+  </div>
+
+  <div class="main-container">
+    <div class="subcontainer1" style="background-color: #3486f1;" onclick="changeSessionLength(-1)">
+      <h1>-</h1>
+    </div>
+    <div class="subcontainer2" style="background-color: grey;" id="sessionLength">16</div>
+    <div class="subcontainer3" style="background-color: #3486f1;" onclick="changeSessionLength(1)">
+      <h1>+</h1>
+    </div>
+  </div>
+
+  <div class="container2" style="background-color: #222222;">
+    <h1 style="padding: 20px; font-size: 15px; font-family: 'Fira Sans', sans-serif; color: grey;">BREAK LENGTH</h1>
+  </div>
+
+  <div class="main-container">
+    <div class="subcontainer1" style="background-color: #3486f1;" onclick="changeBreakLength(-1)">
+      <h1>-</h1>
+    </div>
+    <div class="subcontainer2" style="background-color: grey;" id="breakLength">5</div>
+    <div class="subcontainer3" style="background-color: #3486f1;" onclick="changeBreakLength(1)">
+      <h1>+</h1>
+    </div>
+  </div>
+
+  <div class="main-container1">
+    <div class="btn" onclick="resetTimer()">
+      <h1>Reset</h1>
+    </div>
+    <div class="btn" id="startStop" onclick="startStopTimer()">
+      <h1>Stop</h1>
+    </div>
+  </div>
+</body>
+
+</html>

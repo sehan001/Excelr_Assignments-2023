@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container1 {
+  background-color: black;
+  height: 250px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
+
+#timer {
+  font-size: 100px;
+  padding-top: 40px;
+}
+
+.main-container {
+  display: flex;
+  height: 120px;
+}
+
+#heading-container {
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.container2 {
+  background-color: #222222;
+  text-align: center;
+}
+
+.container2 h1 {
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Fira Sans", sans-serif;
+  color: grey;
+}
+
+.subcontainer1,
+.subcontainer3 {
+  border: 1px solid black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontainer2 {
+  border: 1px solid black;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 30px;
+  height: 121px;
+}
+
+.main-container1 {
+  display: flex;
+  justify-content: space-around; /* Align buttons with space around them */
+  height: 95px;
+}
+
+.btn {
+  border: 1px solid black;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: orange;
+}
+
+#startStop {
+  background-color: red;
+  color: white;
+}
+
+.btn h1 {
+  font-size: 30px;
+  color: white;
+}

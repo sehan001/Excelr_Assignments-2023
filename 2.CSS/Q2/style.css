@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.back-color {
+    background-color: yellow;
+}
+
+.back-image {
+    background-image: url('./Assets/image.png');
+    background-repeat: repeat-x;
+}
+
+.grad {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.back-repeat {
+    background-image: url('./Assets/pattern.jpg');
+    background-repeat: repeat;
+}
+
+.back-postion {
+    background-image: url('./Assets/image.png');
+    background-position: 100px;
+}
+
+.card {
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 17px 19px 11px -9px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    width: 95%;
+}
+
+.card .head {
+    text-decoration: underline;
+}
+
+.card .items {
+    margin: 6px;
+    padding: 5px;
+}
+
+.last {
+    font-family: 'Cutive Mono', monospace;
+    size: 16px;
+}

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+#head {
+    color: blue;
+}
+
+#intro {
+    font-weight: 900;
+}
+
+.my-paragraph {
+    font-weight: 500;
+}
+
+.item-1,
+.item-3 {
+    background-color: #d3d3d3;
+}

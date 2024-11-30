@@ -1,0 +1,28 @@
+* {
+    background-color: black;
+}
+
+.container {
+    width: 204px;
+    height: 104px;
+    border: 2px solid wheat;
+    overflow: hidden;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(123, 2, 14);
+    position: relative;
+    animation: slide 2s infinite alternate;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 102px;
+    }
+}
